@@ -1,0 +1,99 @@
+header{-webkit-box-shadow: -1px 2px 51px -7px rgba(0,0,0,0.57);-moz-box-shadow: -1px 2px 51px -7px rgba(0,0,0,0.57);box-shadow: -1px 2px 51px -7px rgba(0,0,0,0.57); position: fixed; width: 100%;z-index: 2}
+.logo{padding: 3px 0;display: block;float: left;}
+.logo img{width: 100px;-webkit-transition: width .5s;transition: width .5s;}
+#triggermenu{float: right;font-size: 33px;color: #ac8400;margin-top: 12px; float: right; display: none}
+main{float: left;min-height: 500px;width: 100%;}
+footer{background: #333; float: left;width: 100%; padding: 10px 0}
+footer img{width: 100px; margin:0 auto; display: block}
+body{font-family: 'Muli', sans-serif;}
+h1,h2,h3,h4,h5,h6{font-family: 'Raleway', sans-serif;}
+.w100{width: 100%}
+.small{background: #fff; }
+.small .logo img{width: 50px;margin-top: 7px; -webkit-transition: width .5s;transition: width .5s;}
+.small #triggermenu{margin-top: 1px;}
+#menu{padding: 0;float: right;list-style: none;margin-right: 0;margin-top: 27px;font-size: 14px;}
+#menu li{float: left; margin-left: 10px;}
+#menu li a{color: #ac8400; font-weight: bold}
+#menu li a:hover{text-decoration: none; opacity: 0.9}
+#cerrarmenu{text-align: right !important; font-size: 30px; display: none}
+#cerrarmenu a{margin-right: 10px; font-size: 30px}
+.w50{width: 50%; float: left;padding: 1%;color: #fff;min-height: 360px;}
+div#video {margin-bottom: -6px;}
+#sinergia{background: #363736}
+#nosotros{background: #074B71}
+.tar{text-align: right;}
+.tac{text-align: center;}
+.w80{width: 80%; display: block; margin: 10px auto;}
+strong{font-weight: bold; color: #000}
+.cita{font-family: 'Raleway', sans-serif; font-size: 30px; color: #fff; text-align:right;}
+.quote{background: #AB9531;padding: 20px; margin: 0}
+.modulo{float: left;width: 100%; }
+span.autor{text-align: right; display: block;width: 100%;color:rgba(0,74,115,1)}
+div.img-quote{width: 100%; float: left; background: url(../img/fondo-textura-cita.jpg); height: 40px}
+div.parallax{width: 100%; min-height: 500px; background-attachment: fixed; float: left; color: #fff; padding: 40px 0}
+.p1{background: url(../img/fondo-applied.jpg)}
+.p2{background: url(../img/fondo-quienes-somos.jpg); color: #212529 !important}
+.p3{    background: url(../img/p3.jpg);
+    height: 227px !important;
+    min-height: 100px !important; }
+.backazul{background: #074B71; color: #fff}
+.rowWithFullWidth {margin-left: 0 !important;margin-right: 0 !important;}
+.owl-dots {text-align: center;}
+.owl-dot {width: 10px;height: 10px;border-radius: 100%;border: 1px solid #ccc;background: #ccc !important;margin-right: 5px;display: inline-block; }
+.owl-dot.active {background: #ac8400 !important;}
+h2.midas{color: #ac8400}
+.pt40{
+	padding: 40px
+}
+.pt{padding-top: 100px}
+.post{border-bottom: 1px solid #ccc; margin-bottom: 20px}
+.post img{width: 100%; margin-bottom: 20px}
+.leermas{text-align: right;width: 100%;display: block; padding-bottom: 20px}
+.content a{color: #ac8400}
+.content h1{color: #ac8400}
+.content{color: #626262}
+.content a:hover{text-decoration: none; color: #161922}
+.post img{width: 100%}
+.post iframe{width: 100%; min-height: 400px}
+button.btn.btn-primary {
+    background: #ac8400 !important;
+    border: #ac8400 !important;
+}
+a.btn.btn-primary {
+    background: #ac8400 !important;
+    border: #ac8400 !important;
+    margin: 0 auto;
+     display: block
+}
+#cta1{    margin-top: 73px;
+    float: left;
+    width: 100%;}
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		#triggermenu{display: block}
+		#menu{display: none;position: fixed;background: #fff;top: -27px;left: 0;width: 100%;}
+	    #menu li{width: 100%; text-align: center; padding: 5px 0; font-size: 20px; border-bottom: 1px solid #ececec; margin-left: 0}
+    	#cerrarmenu{display: block}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+    }
